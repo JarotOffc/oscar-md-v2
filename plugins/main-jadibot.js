@@ -9,21 +9,21 @@ let anu = `Hallo mypren 👋
 *MAAF KAK FITUR JADIBOT TIDAK ADA DI DALAM FITUR KAMI*
 ⟩» *Kalau kakak mau jadi bot silahkan jasa run aja kak*
           
-━━━〔 ıll *HARGA* llı 〕━━㉿
+━━━〔 ıll *HARGA* llı 〕━━ꕥ
 ⬡ *1 BULAN* 15.000
 ⬡ *2 BULAN:* 25.000
 ⬡ *PERMANEN:* 30.000
 📮 *batas scan 5 kali !*
-┗━━━━━━━━━━━━━━━━━━㉿
-┏━━━〔 ıll *PAYMENT* llı 〕━━㉿
+┗━━━━━━━━━━━━━━━━━━ꕥ
+┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
 ⬡ *GOPAY:* ${gopay}
 ⬡ *OVO:* ${pulsa}
-┗━━━━━━━━━━━━━━━━━━㉿
-┏━━〔 ıll *RULES* llı 〕━㉿
+┗━━━━━━━━━━━━━━━━━━ꕥ
+┏━━〔 ıll *RULES* llı 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
 ⬡ [❗] *Kalau akunmu ke banned bukan urusan saya*
-┗━━━━━━━━━━㉿
+┗━━━━━━━━━━ꕥ
 Jika anda berminat hubungi nomor di bawah!!
 ⟩» *jangan lupa donasi kak* «⟨
 Terimakasih yang sudah mendonasikan untuk bot
