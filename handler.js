@@ -648,7 +648,6 @@ module.exports = {
             console.error(e)
         } finally {
             //console.log(global.db.data.users[m.sender])
-            await this.sendPresenceUpdate('composing', m.chat)
             let user, stats = global.db.data.stats
             if (m) {
                 if (m.sender && (user = global.db.data.users[m.sender])) {
