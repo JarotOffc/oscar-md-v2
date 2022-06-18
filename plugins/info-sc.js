@@ -4,7 +4,7 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-*––––––『 MAU NGAPAIN BANH 』––––––*
+*––––––『 MAU NGAPAIN OM 』––––––*
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(donasi)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
@@ -22,8 +22,8 @@ let krizyn = `
            },
                 {
                urlButton: {
-               displayText: '🌏Myweb🌏',
-               url: 'https://istagram.com/zalfapontinanak'
+               displayText: '💌Link script 💌',
+               url: 'https://github.com/Botynyakamu/Zxynri-Md1'
              }
 
            },
