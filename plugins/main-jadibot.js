@@ -13,7 +13,6 @@ let anu = `Hallo mypren 👋
 ⬡ *1 BULAN* 15.000
 ⬡ *2 BULAN:* 25.000
 ⬡ *PERMANEN:* 30.000
-📮 *batas scan 5 kali !*
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
