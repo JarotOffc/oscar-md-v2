@@ -6,24 +6,24 @@ let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
 let anu = `Hallo mypren 👋
-━━━〔 ıll *Sewa Bot* llı 〕━━㉿
+━━━〔 ıll *Sewa Bot* llı 〕━━ꕥ
 ━━━━━━━━━━━━━━━━━━━━
-━━━〔 ıll *HARGA* llı 〕━━㉿
+━━━〔 ıll *HARGA* llı 〕━━ꕥ
 ⬡ *1 BULAN:* *5.000*
 ⬡ *PERMANEN 2 grup:* *10.000*
 ⬡ *PERMANEN 3-6 grup:* *20.000*
 ⬡ *lebih dari 6 tambah +5.000*
-┗━━━━━━━━━━━━━━━━━━㉿
-┏━━━〔 ıll *PAYMENT* llı 〕━━㉿
+┗━━━━━━━━━━━━━━━ꕥ
+┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
 ⬡ *GOPAY:* ${gopay}
 ⬡ *OVO:* ${pulsa}
 ⬡ *PULSA:* ${pulsa}
-┗━━━━━━━━━━━━━━━━━━㉿
-┏━━〔 ıll *RULES* llı 〕━㉿
+┗━━━━━━━━━━━━━━━━━━ꕥ
+┏━━〔 ıll *RULES* llı 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tida bisa di kembalikan*
 ⬡ [❗] *Kalau akunmu ke banned bukan urusan saya*
-┗━━━━━━━━━━㉿
+┗━━━━━━━━━━ꕥ
 Jika anda berminat hubungi nomor di bawah!!
 
 ⟩» *jangan lupa donasi kak* «⟨
