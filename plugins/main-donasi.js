@@ -33,9 +33,9 @@ wa.me/${numberowner} (Owner)
 
            },
                 {
-               urlButton: {
-               displayText: 'Myweb🌏',
-               url: web
+               callButton: {
+               displayText: 'Nomor creator',
+               url: nomer
              }
 
            },
