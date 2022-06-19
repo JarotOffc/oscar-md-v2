@@ -2,61 +2,49 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-Hallo mypren 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-┏━━━〔 ıll *DONATE* llı 〕━━❑
-⬡ *DANA:* ${dana}
-⬡ *GOPAY:* ${gopay}
-⬡ *OVO:* ${pulsa}
-┗━━━━━━━━━━━━━━━━━━❑
-┏━━〔 ıll *THANKS TO* llı 〕━❑
-⬡ team creator-creator
-⬡ team yang sudah berdonasi
-┗━━━━━━━━━━❑
-Berapapun donasi kalian akan sangat berarti 👍
-Terimakasih yang sudah mendonasikan untuk bot
-Contact person Owner:
-wa.me/${numberowner} (Owner)
+Hallo user zifa👋, Saya adalah zifabotz WhatsApp Multi Device yang di buat oleh Rozi.
+Zifabotz ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendownload sesuatu seperti:
+*Vidio tiktok , Vidio yt , membuat stiker DLL.*
 	`.trim()
-  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(donasi)).buffer()}, { upload: conn.waUploadToServer }) 
+  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya2)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '📮 Silahkan pilih Command Dibawah ini',
+           hydratedFooterText: '[❗] Silahkan pilih Command Dibawah ini',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'GroupBot🐈',
+               displayText: '🔮GroupBot🔮',
                url: gc
              }
 
            },
                 {
                urlButton: {
-               displayText: '😼Whatsapp creator😼',
-               url: nomer
+               displayText: '🐻Istagram creator🐻',
+               url: web
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'sewa',
-               id: '.sewazifa',
+               displayText: 'Owner Bot',
+               id: '.owner',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'Menu',
-               id: '.menu',
+               displayText: 'Source Code',
+               id: '.sc',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: 'Runtime',
-               id: '.runtime',
+               displayText: 'COMMAND',
+               id: '.zifa',
              }
 
            }]
@@ -72,6 +60,6 @@ wa.me/${numberowner} (Owner)
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(donasi|donate)$/i
+handler.command = /^(menu|help|\?)$/i
 handler.help = ['menu']
 module.exports = handler
