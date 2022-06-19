@@ -60,6 +60,6 @@ Zifabotz ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun m
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu|help)$/i
 handler.help = ['menu']
 module.exports = handler
