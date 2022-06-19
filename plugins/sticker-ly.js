@@ -23,6 +23,6 @@ handler.help = ['stikerly <teks>']
 handler.tags = ['sticker']
 handler.command = /^(stic?kerly)$/i
 
-handler.limit = 3
+handler.limit = false
 
 module.exports = handler
