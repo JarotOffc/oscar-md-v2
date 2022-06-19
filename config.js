@@ -23,15 +23,15 @@ global.namebot = '❋ཻུ۪۪⸙Zifabotz-MD⳹ ❋ཻུ۪۪'
 global.gc = 'https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv'
 global.web = 'https://instagram.com/zalfapontianak' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.webm = 'https://instagram.com/zalfapontianak'
-global.nomer = '6285828764046'
+global.nomer = '6285828764046' //ganti jadi nomor mu
 global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 10.000\nMAKSIMAL 2 GRUP\n》PERMANEN  Rp 20.000\nMAKSIMAL 6 GRUP \n》1 BULAN Rp 5.000\nMAKSIMAL 1 GRUP'
 
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg' //ini juga ganti
-global.fotonya3 = 'https://telegra.ph/file/e7019215bb7554614cc2c.jpg'
-global.fotonya4 = 'https://telegra.ph/file/b90ac0b67473356ef980d.jpg'
-global.donasi = 'https://telegra.ph/file/3c4d1c12719a0dac73eeb.jpg' //ganti pakai poto apa aja 
+global.fotonya3 = 'https://telegra.ph/file/e7019215bb7554614cc2c.jpg' //ini juga ganti
+global.fotonya4 = 'https://telegra.ph/file/b90ac0b67473356ef980d.jpg' //ini juga ganti
+global.donasi = 'https://telegra.ph/file/3c4d1c12719a0dac73eeb.jpg' //ganti pakai poto payment atau apa
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = '©️ ❋ཻུ۪۪⸙Zifabotz-MD⳹ ❋ཻུ۪۪'
