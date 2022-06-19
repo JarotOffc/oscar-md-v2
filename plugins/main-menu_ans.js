@@ -6,7 +6,7 @@ Hallo user zifa👋, Saya adalah zifabotz WhatsApp Multi Device yang di buat ole
 Zifabotz ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendownload sesuatu seperti:
 *Vidio tiktok , Vidio yt , membuat stiker DLL.*
 	`.trim()
-  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya2)).buffer()}, { upload: conn.waUploadToServer }) 
+  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya5)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
