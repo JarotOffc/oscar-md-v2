@@ -12,18 +12,18 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'jangan lupa kasih star om',
+           hydratedFooterText: 'masih aku private bang!',
            hydratedButtons: [{
              urlButton: {
                displayText: '🔮GroupBot🔮',
-               url: 'https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv'
+               url: gc
              }
 
            },
                 {
                urlButton: {
-               displayText: '💌Link script 💌',
-               url: 'https://github.com/Botynyakamu/Zxynri-Md1'
+               displayText: '💌Link Istagram💌',
+               url: web
              }
 
            },
