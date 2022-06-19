@@ -574,7 +574,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['zifa']
 handler.tags = ['main']
-handler.command = /^(alive|panel|krizyn|zifa)$/i
+handler.command = /^(alive|panel|krizyn|zifa|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
