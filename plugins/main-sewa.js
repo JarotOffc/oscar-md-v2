@@ -21,8 +21,8 @@ let anu = `Hallo mypren 👋
 ⬡ *PULSA:* ${pulsa}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
-⬡ [❗] *Dana yang sudah masuk tida bisa di kembalikan*
-⬡ [❗] *Kalau akunmu ke banned bukan urusan saya*
+⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
+⬡ [❗] *Kalau akunmu ke banned atau sebagainya bukan urusan saya*
 ┗━━━━━━━━━━ꕥ
 Jika anda berminat hubungi nomor di bawah!!
 
