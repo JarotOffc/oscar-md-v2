@@ -709,7 +709,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup @user').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang @user!')).replace('@user', '@' + user.split('@')[0])
-                                this.sendButtonImg(id, pp, text, "©️ zifabotz-MD", "AWOKAWOAK", "bebanjoin", null)
+                                this.sendButtonImg(id, pp, text, "ᯤ by creator bot", "AWOKAWOAK", "bebanjoin", null)
                                 }
                     }
                 }
