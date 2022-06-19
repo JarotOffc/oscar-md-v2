@@ -14,7 +14,7 @@ let anu = `Hallo mypren 👋
 ━━━〔 ıll *HARGA* llı 〕━━ꕥ
 ⬡ *1 BULAN:* *${hargaperbulan}*
 ⬡ *PERMANEN 2 grup:* *${hargapermanen1*
-⬡ *PERMANEN Sampai 6 grup:* *${haragpermanen2}*
+⬡ *PERMANEN 6 grup:* *${haragpermanen2}*
 ⬡ *lebih dari 6 tambah +5.000*
 ┗━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
