@@ -324,24 +324,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               {
       
                 "rows": [{
-"title": ` 😼⟩» OWNER BOT`,
-                  "description": "Nomor Pemilik Bot! save? Save ae🗿",
-                  "rowId": `.owner`
-                },{
-                  "title": `💳⟩» SEWA BOT`,
-                  "description": "Sewa kak, awokawok",
-                  "rowId": `.sewazifa`
-                },{
-                  "title": "🌈⟩» RULES BOT",
-                  "description": "Menampilkan peraturan bot",
-                  "rowId": `${_p}? info`
-                }],
-                "title": "INFORMASI BOT"
                   "title": `|💌|⟩»➵͜͡✪ ALL MENU`,
                   "description": "Menampilkan Menu All",
                   "rowId": '.? all'
-                  }],
-                "title": "ALL MENU"
+                  }, {
                   "title": "|🗃️|⟩»➵͜͡✪ ABSEN MENU",
                   "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
@@ -449,22 +435,24 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "|📂|⟩»➵͜͡✪ PHOTO OXY MENU",
                   "description": "Menampilkan Photo Oxy Menu",
                   "rowId": `${_p}? textpro`
-}],
-                "title": "MENU LAINNYA"
                 }
                   ],
                 "title": "LIST MENU"
                 }, {
                 "rows": [{
-                  "title": `🏃⟩» SPEED`,
-                  "description": "Kecepatan bot",
-                  "rowId": `.ping`
+"title": ` 😼⟩» OWNER BOT`,
+                  "description": "Nomor Pemilik Bot! save? Save ae🗿",
+                  "rowId": `.owner`
                 },{
-                  "title": "⏰⟩» RUNTIME BOT",
-                  "description": "Menampilkan waktu perjalanan bot",
-                  "rowId": `.rumtime`
+                  "title": `💳⟩» SEWA BOT`,
+                  "description": "Sewa kak, awokawok",
+                  "rowId": `.sewazifa`
+                },{
+                  "title": "🌈⟩» INFO BOT",
+                  "description": "Menampilkan Menu Info",
+                  "rowId": `${_p}? info`
                 }],
-                "title": "TENTANG BOT"
+                "title": "INFORMASI BOT"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
@@ -552,22 +540,22 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
                {
              quickReplyButton: {
-               displayText: '💌 Owner',
+               displayText: '🐤CREATOR BOT🐤',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-        displayText: '💳 Sewa',
+        displayText: '🪀SEWABOT🪀',
                id: '.sewazifa',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: 'Group Offcial Bot',
-               id: '.gcbot',
+               displayText: ' 💌YANG SUDAH MEMBANTU BOT💌',
+               id: '.tqto',
              }
            }]
          }
@@ -586,7 +574,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['zifa']
 handler.tags = ['main']
-handler.command = /^(alive|panel|krizyn|zifa|\?)$/i
+handler.command = /^(alive|panel|krizyn|zifa)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
