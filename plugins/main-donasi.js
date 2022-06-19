@@ -33,8 +33,8 @@ wa.me/${numberowner} (Owner)
 
            },
                 {
-               callButton: {
-               displayText: 'Nomor creator',
+               urlButton: {
+               displayText: '😼Whatsapp creator😼',
                url: nomer
              }
 
