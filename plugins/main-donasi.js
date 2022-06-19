@@ -27,15 +27,15 @@ wa.me/${numberowner} (Owner)
            hydratedFooterText: '📮 Silahkan pilih Command Dibawah ini',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'GroupBot',
-               url: 'https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv'
+               displayText: 'GroupBot🐈',
+               url: gc
              }
 
            },
                 {
                urlButton: {
-               displayText: 'Myweb',
-               url: 'https://istagram.com/zalfapontinanak'
+               displayText: 'Myweb🌏',
+               url: web
              }
 
            },
