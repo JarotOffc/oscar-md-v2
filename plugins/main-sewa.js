@@ -4,14 +4,17 @@ let teks = 'Sewa'
 let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
+let perbulan = global.hargaperbulan
+let permanen1 = global.hargapermanen1
+let permanen2 = global.hargapermanen2
 let numberowner = global.numberowner
 let anu = `Hallo mypren 👋
 ━━━〔 ıll *Sewa Bot* llı 〕━━ꕥ
 ━━━━━━━━━━━━━━━━━━━━
 ━━━〔 ıll *HARGA* llı 〕━━ꕥ
-⬡ *1 BULAN:* *5.000*
-⬡ *PERMANEN 2 grup:* *10.000*
-⬡ *PERMANEN 3-6 grup:* *20.000*
+⬡ *1 BULAN:* *${hargaperbulan}*
+⬡ *PERMANEN 2 grup:* *${hargapermanen1*
+⬡ *PERMANEN 3-6 grup:* *${haragpermanen2}*
 ⬡ *lebih dari 6 tambah +5.000*
 ┗━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
