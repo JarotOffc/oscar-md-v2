@@ -324,10 +324,24 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               {
       
                 "rows": [{
+"title": ` 😼⟩» OWNER BOT`,
+                  "description": "Nomor Pemilik Bot! save? Save ae🗿",
+                  "rowId": `.owner`
+                },{
+                  "title": `💳⟩» SEWA BOT`,
+                  "description": "Sewa kak, awokawok",
+                  "rowId": `.sewazifa`
+                },{
+                  "title": "🌈⟩» RULES BOT",
+                  "description": "Menampilkan peraturan bot",
+                  "rowId": `${_p}? info`
+                }],
+                "title": "INFORMASI BOT"
                   "title": `|💌|⟩»➵͜͡✪ ALL MENU`,
                   "description": "Menampilkan Menu All",
                   "rowId": '.? all'
-                  }, {
+                  }],
+                "title": "ALL MENU"
                   "title": "|🗃️|⟩»➵͜͡✪ ABSEN MENU",
                   "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
@@ -435,24 +449,22 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "|📂|⟩»➵͜͡✪ PHOTO OXY MENU",
                   "description": "Menampilkan Photo Oxy Menu",
                   "rowId": `${_p}? textpro`
+}],
+                "title": "MENU LAINNYA"
                 }
                   ],
                 "title": "LIST MENU"
                 }, {
                 "rows": [{
-"title": ` 😼⟩» OWNER BOT`,
-                  "description": "Nomor Pemilik Bot! save? Save ae🗿",
-                  "rowId": `.owner`
+                  "title": `🏃⟩» SPEED`,
+                  "description": "Kecepatan bot",
+                  "rowId": `.ping`
                 },{
-                  "title": `💳⟩» SEWA BOT`,
-                  "description": "Sewa kak, awokawok",
-                  "rowId": `.sewazifa`
-                },{
-                  "title": "🌈⟩» INFO BOT",
-                  "description": "Menampilkan Menu Info",
-                  "rowId": `${_p}? info`
+                  "title": "⏰⟩» RUNTIME BOT",
+                  "description": "Menampilkan waktu perjalanan bot",
+                  "rowId": `.rumtime`
                 }],
-                "title": "INFORMASI BOT"
+                "title": "TENTANG BOT"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
@@ -540,22 +552,22 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
                {
              quickReplyButton: {
-               displayText: '🐤CREATOR BOT🐤',
+               displayText: '💌 Owner',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-        displayText: '🪀SEWABOT🪀',
+        displayText: '💳 Sewa',
                id: '.sewazifa',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: ' 💌YANG SUDAH MEMBANTU BOT💌',
-               id: '.tqto',
+               displayText: 'Group Offcial Bot',
+               id: '.gcbot',
              }
            }]
          }
