@@ -540,22 +540,22 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
                {
              quickReplyButton: {
-               displayText: '🐤CREATOR BOT🐤',
+               displayText: '🧸 Owner',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-        displayText: '🪀SEWABOT🪀',
+        displayText: '💳 Sewa',
                id: '.sewazifa',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: ' 💌YANG SUDAH MEMBANTU BOT💌',
-               id: '.tqto',
+               displayText: 'Group Offcial',
+               id: '.gcbot',
              }
            }]
          }
@@ -574,7 +574,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['zifa']
 handler.tags = ['main']
-handler.command = /^(alive|panel|krizyn|zifa)$/i
+handler.command = /^(alive|panel|krizyn|zifa|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
