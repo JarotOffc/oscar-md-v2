@@ -12,7 +12,7 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'masih aku private bang!',
+           hydratedFooterText: 'masih rozi private bang!',
            hydratedButtons: [{
              urlButton: {
                displayText: '🔮GroupBot🔮',
