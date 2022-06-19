@@ -4,15 +4,15 @@ let handler = async (m) => {
 let krizyn = `
 Hallo mypren 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-┏━━━〔 ıll *DONATE* llı 〕━━㉿
+┏━━━〔 ıll *DONATE* llı 〕━━❑
 ⬡ *DANA:* ${dana}
 ⬡ *GOPAY:* ${gopay}
 ⬡ *OVO:* ${pulsa}
-┗━━━━━━━━━━━━━━━━━━㉿
-┏━━〔 ıll *THANKS TO* llı 〕━㉿
+┗━━━━━━━━━━━━━━━━━━❑
+┏━━〔 ıll *THANKS TO* llı 〕━❑
 ⬡ team creator-creator
 ⬡ team yang sudah berdonasi
-┗━━━━━━━━━━㉿
+┗━━━━━━━━━━❑
 Berapapun donasi kalian akan sangat berarti 👍
 Terimakasih yang sudah mendonasikan untuk bot
 Contact person Owner:
