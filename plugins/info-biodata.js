@@ -2,6 +2,7 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
+•·––––––––––––––––––––––––––·•
 ❑ *Nama* : Rozi
 ❑ *Umur* : 15 Tahun
 ❑ *Kelas* : 1 Sma
@@ -25,7 +26,7 @@ let krizyn = `
            },
                 {
                urlButton: {
-               displayText: '🌍 Link Istagram 🌍',
+               displayText: '🌍 Link Instagram 🌍',
                url: web
              }
 
