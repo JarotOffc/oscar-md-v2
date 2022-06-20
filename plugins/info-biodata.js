@@ -15,7 +15,7 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'masih rozi private bang!',
+           hydratedFooterText: 'salam kenal bang👋',
            hydratedButtons: [{
              urlButton: {
                displayText: 'GroupBot 🐈',
@@ -32,7 +32,7 @@ let krizyn = `
            },
                {
              quickReplyButton: {
-               displayText: 'sewa',
+               displayText: 'Sewa Bot',
                id: '.sewazifa',
              }
              
