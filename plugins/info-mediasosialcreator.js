@@ -14,18 +14,18 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '📮 Silahkan pilih Command Dibawah ini',
+           hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
                displayText: '📨Tiktok creator📨',
-               url: gc
+               url: tt
              }
 
            },
                 {
                urlButton: {
                displayText: 'Youtube creator🔥',
-               url: nomer
+               url: yt
              }
 
            },
