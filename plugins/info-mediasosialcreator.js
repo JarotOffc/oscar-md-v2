@@ -2,19 +2,7 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-Hallo mypren 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-┏━━━〔 ıll *DONATE* llı 〕━━❑
-⬡ *DANA:* ${dana}
-⬡ *GOPAY:* ${gopay}
-⬡ *OVO:* ${pulsa}
-┗━━━━━━━━━━━━━━━━━━❑
-┏━━〔 ıll *THANKS TO* llı 〕━❑
-⬡ team creator-creator
-⬡ team yang sudah berdonasi
-┗━━━━━━━━━━❑
-Berapapun donasi kalian akan sangat berarti 👍
-Terimakasih yang sudah mendonasikan untuk bot
+MEDIA SOSIAL OWNER
 Contact person Owner:
 wa.me/${numberowner} (Owner)
 	`.trim()
