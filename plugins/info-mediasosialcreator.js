@@ -2,11 +2,13 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-MEDIA SOSIAL OWNER
-Contact person Owner:
-wa.me/${numberowner} (Owner)
+╭─❑ 「 SOSIAL MEDIA 」 ❑──
+│ Followe sosial media
+│ owner yuk biar saling
+│ kenal...
+╰❑
 	`.trim()
-  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(donasi)).buffer()}, { upload: conn.waUploadToServer }) 
+  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya6)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
@@ -60,6 +62,6 @@ urlButton: {
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(mediasosial)$/i
-handler.help = ['mediasosial']
+handler.command = /^(sosialmedia)$/i
+handler.help = ['sosialmedia']
 module.exports = handler
