@@ -35,6 +35,7 @@
 ✓ Sadboy01
 ✓ Riel
 ✓ jaka
+✓ kanna
 ```
 
 ## Stats
