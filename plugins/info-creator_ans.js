@@ -6,7 +6,8 @@ let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
 let anu = `*––––––『 INFO ROZI 』––––––*
-  conn.send2ButtonImg(m.chat, fla + teks, anu, wm, 'Nomor Owner', '.owner2', 'Sosial Media', '.sosialmedia', m) 
+`
+  conn.send2ButtonImg(m.chat, fla + teks, anu,watermark, 'Nomor Owner', '.owner2', 'Sosial Media', '.sosialmedia', m) 
 }
 handler.help = ['owner']
 handler.tags = ['info']
