@@ -2,7 +2,9 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-Hallo user zifa👋, Saya adalah zifabotz WhatsApp Multi Device yang di buat oleh Rozi.
+*Hallo user zifa👋,* 
+
+*Saya adalah zifabotz WhatsApp Multi Device yang di buat oleh Rozi.*
 Zifabotz ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendownload sesuatu seperti:
 *Vidio tiktok , Vidio yt , membuat stiker DLL.*
 	`.trim()
