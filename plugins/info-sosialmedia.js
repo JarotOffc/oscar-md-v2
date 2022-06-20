@@ -39,14 +39,14 @@ urlButton: {
                {
              quickReplyButton: {
                displayText: 'MENU',
-               id: '.sewazifa',
+               id: '.menu',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'SEWA BOT',
-               id: '.sewazifa',
+               displayText: 'BIODATA CREATOR',
+               id: '.biodata',
              }
 
            }]
