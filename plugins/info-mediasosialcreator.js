@@ -32,7 +32,7 @@ let krizyn = `
                {
 urlButton: {
                displayText: 'Istagram Creator📸',
-               url: web
+               url: webm
              }
 
            },
