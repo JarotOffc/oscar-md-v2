@@ -5,7 +5,7 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `*TENTANG ROZI:*
+let anu = `*––––––『 INFO ROZI 』––––––*
 Contact person jasa run:
 wa.me/${numberowner} (Owner)
 
