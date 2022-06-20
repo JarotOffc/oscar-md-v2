@@ -526,7 +526,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '🔮ISTAGRAM🔮',
+               displayText: '🔮INSTAGRAM🔮',
                url: webm
              }
 
