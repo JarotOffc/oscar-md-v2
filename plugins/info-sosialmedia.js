@@ -3,7 +3,7 @@ let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
 ╭─❑ 「 SOSIAL MEDIA 」 ❑──
-│ Followe sosial media
+│ Follow sosial media
 │ owner yuk biar saling
 │ kenal...
 ╰❑
@@ -17,7 +17,7 @@ let krizyn = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: '📨Tiktok creator📨',
+               displayText: 'Tiktok creator📨',
                url: tt
              }
 
