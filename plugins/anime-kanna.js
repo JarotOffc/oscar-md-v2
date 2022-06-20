@@ -10,9 +10,9 @@ await conn.send2ButtonImg(m.chat, await (await fetch(url)).buffer(), 'Kawai > _<
 handler.help = ['kanna']
 handler.tags = ['internet', 'anime'] 
 handler.command = /^(kanna)$/i
-handler.limit = true
-handler.register = true
+handler.limit = false
+handler.register = false
 
-handler.limit = true
+handler.limit = false
 
 module.exports = handler
