@@ -24,7 +24,7 @@ Zifabotz ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun m
            },
                 {
                urlButton: {
-               displayText: '🐻Istagram creator🐻',
+               displayText: '🐻Instagram creator🐻',
                url: web
              }
 
