@@ -2,7 +2,7 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-╭─❑ 「 SOSIAL MEDIA 」 ❑──
+╭─❑ 「 *SOSIAL MEDIA* 」 ❑──
 │ Follow sosial media
 │ owner yuk biar saling
 │ kenal...
@@ -31,7 +31,7 @@ let krizyn = `
            },
                {
 urlButton: {
-               displayText: 'Istagram Creator📸',
+               displayText: 'Instagram Creator📸',
                url: webm
              }
 
