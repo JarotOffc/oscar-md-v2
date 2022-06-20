@@ -6,11 +6,11 @@ let handler = async (m, { conn }) => {
 
     let str = `
 ╭─────[ *Status* ]────✧
-├◌ Aktif selama ${uptime}
-├◌ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
-├◌ ${Object.keys(global.db.data.users).length} Pengguna
-├◌ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-├◌ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+├❑ Aktif selama ${uptime}
+├❑ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
+├❑ ${Object.keys(global.db.data.users).length} Pengguna
+├❑ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
+├❑ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ╰────────────···
     `.trim()
 conn.send2But(m.chat, str, wm, 'Info', '.info', 'Owner', '.owner',m)
