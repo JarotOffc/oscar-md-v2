@@ -22,7 +22,7 @@ let krizyn = `
            },
                 {
                urlButton: {
-               displayText: '🌍 Link Istagram 🌍',
+               displayText: '🌍 Link Instagram 🌍',
                url: web
              }
 
