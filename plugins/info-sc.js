@@ -15,14 +15,14 @@ let krizyn = `
            hydratedFooterText: 'masih rozi private bang!',
            hydratedButtons: [{
              urlButton: {
-               displayText: '🔮GroupBot🔮',
+               displayText: 'GroupBot 🐈',
                url: gc
              }
 
            },
                 {
                urlButton: {
-               displayText: '💌Link Istagram💌',
+               displayText: '🌍 Link Istagram 🌍',
                url: web
              }
 
