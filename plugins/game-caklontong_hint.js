@@ -8,5 +8,5 @@ let handler = async (m, { conn }) => {
     m.reply('```' + clue + '```')
 }
 handler.command = /^calo$/i
-handler.limit = true
+handler.limit = false
 module.exports = handler
