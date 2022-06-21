@@ -1,9 +1,10 @@
 let fs = require('fs')
 let handler = async (m, { conn } ) => {    
 let anu =`
-⊙───❲ B A C O T ❳
+╭─❑ 「 B A C O T 」 ❑──
 
-${pickRandom(global.bacot)}
+│ ${pickRandom(global.bacot)}
+╰❑
 `
 conn.reply(m.chat, anu, m) 
 }
@@ -59,6 +60,6 @@ global.bacot = [
 'Masa depanmu tergantung pada mimpimu, maka perbanyaklah tidur.',
 'Seberat apapun pekerjaanmu, akan semakin ringan jika tidak dibawa.',
 'Jangan terlalu berharap! nanti jatuhnya sakit!',
-'Ingat! Anda itu jomblo',
+'Ingat! Anda itu jomblo mending sama rozi',
 'Gak tau mau ngetik apa',
-]
+ ]
