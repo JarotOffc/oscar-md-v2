@@ -2,7 +2,6 @@ let fs = require('fs')
 let handler = async (m, { conn } ) => {    
 let anu =`
 ╭─❑ 「 B A C O T 」 ❑──
-
 │ ${pickRandom(global.bacot)}
 ╰❑
 `
