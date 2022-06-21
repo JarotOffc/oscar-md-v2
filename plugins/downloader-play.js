@@ -1,11 +1,11 @@
-const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const { servers, yta, ytv } = require('../lib/y2mate')
-let fs = require('fs')
 let yts = require('yt-search')
 let fetch = require('node-fetch')
 let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} california`
   let chat = global.db.data.chats[m.chat]
+  await m.reply(global.wait)
   let results = await yts(text)
   let vid = results.all.find(video => video.seconds < 3600)
   if (!vid) throw 'Konten Tidak ditemukan'
@@ -24,62 +24,49 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
       m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\nmencoba server lain...'}`)
     }
   }
+
   if (yt === false) throw 'semua server gagal'
   if (yt2 === false) throw 'semua server gagal'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
-let anu =  `
-*Judul:* ${title}
-*Ukuran File Audio:* ${filesizeF}
-*Ukuran File Video:* ${yt2.filesizeF}
-*Server y2mate:* ${usedServer}
-*Link Sumber:* 
-${vid.url}
-
-`
-     let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(thumb)).buffer()}, { upload: conn.waUploadToServer }) 
-      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-      templateMessage: {
-          hydratedTemplate: {
-            imageMessage: message.imageMessage, 
-            hydratedContentText: anu,
-            hydratedFooterText: wm, 
-            hydratedButtons: [{
-             urlButton: {
-               displayText: 'Join Here',
-               url: gc
-             }
-
-           },
-               {
-             quickReplyButton: {
-               displayText: 'Video 360p',
-               id: `.ytmp4 ${vid.url}`,
-             }
-
-            },
-               {
-             quickReplyButton: {
-               displayText: 'Video 720p',
-               id: `.ytv720 ${vid.url}`,
-             }
-
-            },
-               {
-             quickReplyButton: {
-               displayText: 'Audio',
-               id: `.ytmp3 ${vid.url}`,
-             }
-
-           }]
-         }
-       }
-     }), { userJid: m.sender, quoted: m });
-    //conn.reply(m.chat, text.trim(), m)
-    return await conn.relayMessage(
-         m.chat,
-         template.message,
-         { messageId: template.key.id }
-     )
+    const ftrol = {
+    key : {
+    remoteJid: 'status@broadcast',
+    participant : '0@s.whatsapp.net'
+    },
+    message: {
+    orderMessage: {
+    itemCount : 20290,
+    status: 1,
+    surface : 1,
+    message: `❏ zifabotz`, 
+    orderTitle: `▮Menu ▸`,
+    thumbnail: await (await fetch('https://telegra.ph/file/ad0f27b9d5e469827e654.jpg')).buffer(), //Gambarnye
+    sellerJid: '0@s.whatsapp.net' 
+    }
+    }
+    }
+  await conn.send3ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `
+*PLAY ZIFABOTZ*
+├●───────────────┤
+◁ㅤ ❚❚ㅤ▷
+┏┉━━━━━━━━━━━❏
+┆• *Judul:* ${title}
+│• *Audio:* ${filesizeF}
+│• *Video:* ${yt2.filesizeF}
+┆• *Server:* ${usedServer}
+└❏
+`.trim(), global.botdate, `💽 Audio`, `.yta ${vid.url}`, `🎥 Video`, `.yt ${vid.url}`, '🔎 YouTube Search', `.yts ${title}`, ftrol, {
+    contextInfo: {
+        externalAdReply: {
+            title: '▶︎ ━━━━━━━•────────────────── ', 
+            body: 'Apa benar ini yang anda cari?',
+            description: 'Apa benar ini yang anda cari?',
+            mediaType: 2,
+          thumbnail: await (await fetch(thumb)).buffer(),
+         mediaUrl: `https://vt.tiktok.com/ZSdy5q2fJ/`
+        }
+     }
+    })
 }
 handler.help = ['play'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
@@ -89,3 +76,4 @@ handler.exp = 0
 
 module.exports = handler
 
+let wm = global.botwm
