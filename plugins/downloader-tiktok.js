@@ -8,6 +8,6 @@ conn.sendFile(m.chat, nowm, null, '*DONE❗️*', m)
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tiktok)$/i
+handler.command = /^(tiktok|tiktoknowm)$/i
 
 module.exports = handler
