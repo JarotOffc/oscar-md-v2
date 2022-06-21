@@ -5,7 +5,7 @@ let krizyn = `
 •·––––––––––––––––––––––––––·•
 ❑ *Nama* : Rozi
 ❑ *Umur* : 15 Tahun
-❑ *Kelas* : 1 Sma
+❑ *Kelas* : 1 SMA
 ❑ *Ulang Tahun* : 4 juli 2007
 ❑ *Alamat* : Indonesia, Kalimantan barat, Pontianak
 •·––––––––––––––––––––––––––·•
