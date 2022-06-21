@@ -27,8 +27,8 @@ wa.me/${numberowner} (Owner)
            hydratedFooterText: '📮 Silahkan pilih Command Dibawah ini',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'GroupBot🐈',
-               url: gc
+               displayText: 'Saweria🐈',
+               url: saweria
              }
 
            },
