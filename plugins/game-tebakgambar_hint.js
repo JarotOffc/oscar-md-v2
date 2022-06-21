@@ -7,6 +7,6 @@ let handler = async (m, { conn }) => {
 }
 handler.command = /^hint$/i
 
-handler.limit = true
+handler.limit = false
 
 module.exports = handler
