@@ -1,6 +1,6 @@
 let fs = require('fs')
 let handler = async (m, { conn }) => {
-let teks = 'Owner'
+let teks = 'Rozi'
 let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
