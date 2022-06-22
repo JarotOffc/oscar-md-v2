@@ -34,7 +34,7 @@ global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg' //ini juga ganti
-global.fotonya3 = 'https://telegra.ph/file/e7019215bb7554614cc2c.jpg' //ini juga ganti
+global.fotonya3 = 'https://telegra.ph/file/4c7b1f58bb1832ecd9c1d.jpg' //ini juga ganti
 global.fotonya4 = 'https://telegra.ph/file/b90ac0b67473356ef980d.jpg' //ini juga ganti
 global.fotonya5 = 'https://telegra.ph/file/88a4f6a6247d90433508a.jpg' //ini juga ganti
 global.fotonya6 = 'https://telegra.ph/file/29bb316ba4424c23346fa.jpg' //ini ganti pakai foto sosialmedia mu
