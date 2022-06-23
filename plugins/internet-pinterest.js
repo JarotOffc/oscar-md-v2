@@ -33,6 +33,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['pinterest <text>']
 handler.tags = ['internet']
 handler.command = /^(pinterest)$/i
-handler.limit = true
+handler.limit = false 
 
 module.exports = handler
