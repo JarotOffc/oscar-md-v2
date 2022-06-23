@@ -20,7 +20,7 @@ try {
 handler.help = ['emojimix']
 handler.tags = ['sticker']
 handler.command = /^(emojimix)$/i
-handler.limit = true 
+handler.limit = false 
 module.exports = handler
 const fetchJson = (url, options) => new Promise(async (resolve, reject) => {
     fetch(url, options)
@@ -59,7 +59,7 @@ if (!args[0]) throw 'Contoh penggunaan:\n\n*.emojimix 🤨&😣*'
 handler.help = ['emojimix']
 handler.tags = ['sticker']
 handler.command = /^(emojimix)$/i
-handler.limit = true 
+handler.limit = false 
 module.exports = handler
 
 
