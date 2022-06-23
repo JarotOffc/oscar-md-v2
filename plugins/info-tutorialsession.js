@@ -6,7 +6,7 @@ let handler = async (m) => {
 let krizyn = `
 *TUTORIAL BANH!!*
 	`.trim()
-  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya3)).buffer()}, { upload: conn.waUploadToServer }) 
+  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya8)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
@@ -16,14 +16,14 @@ let krizyn = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'Sesssion coding📇',
-               url: sc
+               url: ss
              }
 
            },
                 {
                urlButton: {
                displayText: 'Session simpel🗒',
-               url: ss
+               url: sss
              }
            }]
          }
