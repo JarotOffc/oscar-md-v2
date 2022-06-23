@@ -39,6 +39,7 @@ global.fotonya4 = 'https://telegra.ph/file/b90ac0b67473356ef980d.jpg' //ini juga
 global.fotonya5 = 'https://telegra.ph/file/88a4f6a6247d90433508a.jpg' //ini juga ganti
 global.fotonya6 = 'https://telegra.ph/file/29bb316ba4424c23346fa.jpg' //ini ganti pakai foto sosialmedia mu
 global.fotonya7 = 'https://telegra.ph/file/459fa21043a73dc4147e8.jpg'
+global.fotonya8 = 'https://telegra.ph/file/8654aec07b833ba2a81bc.jpg' //foto session
 global.donasi = 'https://telegra.ph/file/3c4d1c12719a0dac73eeb.jpg' //ganti pakai poto payment atau apa
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
