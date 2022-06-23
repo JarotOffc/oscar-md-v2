@@ -43,7 +43,7 @@ let krizyn = `
              },
                {
              quickReplyButton: {
-               displayText: 'Donasi bang',
+               displayText: 'Donasi',
                id: '.donasi',
              }
 
