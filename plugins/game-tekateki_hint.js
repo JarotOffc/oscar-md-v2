@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
     let json = conn.tekateki[id][1]
     conn.reply(m.chat, '```' + json.bantuan + '```\nBalas soalnya, bukan pesan ini!', conn.tekateki[id][0])
 }
-handler.command = /^tete$/i
+handler.command = /^tekki$/i
 
 handler.limit = 1
 
