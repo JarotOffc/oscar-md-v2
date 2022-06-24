@@ -29,7 +29,7 @@ let krizyn = `
            },
                {
              quickReplyButton: {
-               displayText: 'dapatkan session',
+               displayText: 'Dapatkan session',
                id: '.tutorialsession',
              }
              
