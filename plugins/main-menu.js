@@ -328,20 +328,8 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                 "title": "⟣─────────❲ 𝗜 𝗡 𝗙 𝗢 ❳──────────⟢"
               }, {
                 "rows": [{
-                  "title": `⋮☰|💶|┅MENU———๑〘 SEWA 〙`,
-                  "description": "Menampilkan Menu Sewa",
-                  "rowId": '.sewazifa'
-}, {
-                "rows": [{
-                  "title": `⋮☰|💳|┅MENU———๑〘 DONATE 〙`,
-                  "description": "Donasi banh. . .",
-                  "rowId": '.donasi'
-                 }],
-                "title": "⟣─────────❲ 𝐁 𝐈 𝐒 𝐍 𝐈 𝐒 ❳──────────⟢"
- }, {
-                "rows": [{
                   "title": `⋮☰|🏫|┅MENU———๑〘 ALL 〙`,
-                  "description": "Menampilkan semua fitur,
+                  "description": "Menampilkan Menu All",
                   "rowId": '.? all'
                  }],
                 "title": "⟣─────────❲ 𝗔 𝗟 𝗟 ❳──────────⟢"
@@ -580,7 +568,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['zifa']
 handler.tags = ['main']
-handler.command = /^(alive2|panel2|krizyn2|zifa2|\?)$/i
+handler.command = /^(alive|panel|krizyn|zifa|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
