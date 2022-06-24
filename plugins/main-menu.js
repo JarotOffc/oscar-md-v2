@@ -303,9 +303,9 @@ let menuu = `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `© *fazibotz*`.trim(),
+                        "description": `© *Zifabotz-MD*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
-                        "buttonText": "*Click Here*",
+                        "buttonText": "Click Here",
             listType: 1,
            FooterText:'',
             mtype: 'listMessage',
@@ -323,7 +323,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                  },{
               	"title": ` 💬 RULES BOT`,
                   "description": "Rules Yang Harus Di Patuhi User Shinn",
-                  "rowId": `.rules`
+                  "rowId": `.snk`
                 }],
                 "title": "⟣─────────❲ 𝗜 𝗡 𝗙 𝗢 ❳──────────⟢"
               }, {
