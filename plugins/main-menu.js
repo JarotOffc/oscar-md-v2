@@ -303,7 +303,7 @@ let menuu = `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `© *Zifabotz-MD*`.trim(),
+                        "description": `©️ *Zifabotz-MD*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "Click Here",
             listType: 1,
@@ -328,11 +328,23 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                 "title": "⟣─────────❲ 𝗜 𝗡 𝗙 𝗢 ❳──────────⟢"
               }, {
                 "rows": [{
-                  "title": `⋮☰|🏫|┅MENU———๑〘 ALL 〙`,
-                  "description": "Menampilkan Menu All",
-                  "rowId": '.? all'
+                  "title": `⋮☰|💶|┅MENU———๑〘 SEWA 〙`,
+                  "description": "Menampilkan Menu Sewa",
+                  "rowId": '.sewazifa'
+}, {
+                "rows": [{
+                  "title": `⋮☰|💳|┅MENU———๑〘 DONATE 〙`,
+                  "description": "Donasi banh. . .",
+                  "rowId": '.donasi'
                  }],
                 "title": "⟣─────────❲ 𝗔 𝗟 𝗟 ❳──────────⟢"
+ }, {
+                "rows": [{
+                  "title": `⋮☰|🏫|┅MENU———๑〘 ALL 〙`,
+                  "description": "Menampilkan semua fitur,
+                  "rowId": '.? all'
+                 }],
+                "title": "⟣─────────❲ BISSNIS ❳──────────⟢"
                   }, {
                   "rows": [{
                   "title": "⋮☰|📝|┅MENU———๑〘 1 〙",
@@ -568,7 +580,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['zifa']
 handler.tags = ['main']
-handler.command = /^(alive|panel|krizyn|zifa|\?)$/i
+handler.command = /^(alive2|panel2|krizyn2|zifa2|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
