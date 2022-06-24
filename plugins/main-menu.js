@@ -298,25 +298,14 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `╭────ꕥ ${namebot} ꕥ────
-│✾ Nama: ${name}
-│✾ Limit: ${limit}
-│✾ Level: ${level}
-│✾ Tanggal : ${date}
-│✾ Jam : ${wib}
-╰❑
-╭─❑ 「 INFORMASI 」 ❑──
-│ Bot ini masih tahap beta
-│ apabila ada bug/eror harap
-│ lapor ke owner
-╰❑
-Runtime ${uptime}
+let menuu = `
  `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
-            title: `*${ucapan()} ${name}*`,
-            description: menuu,
-            buttonText: 'KLIK DISINI',
+            "title": `*${ucapan()}, ${name}*`.trim(),
+                        "description": `© *fazibotz*`.trim(),
+                        "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
+                        "buttonText": "*Click Here*",
             listType: 1,
            FooterText:'',
             mtype: 'listMessage',
