@@ -11,7 +11,7 @@ global.prems = ['6285787476829']
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'ᴹᴿ᭄ ZifaOffcོ_1ঔৣ꧂'
-global.numberowner = '6285828764046'
+global.numberowner = '6285787476829'
 global.instagram = 'https://instagram.com/zalfapontianak'
 global.github = 'https://github.com/Botynyakamu'
 global.tt = 'https://vt.tiktok.com/ZSdc6Dht6/'
