@@ -325,14 +325,14 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Rules Yang Harus Di Patuhi User Shinn",
                   "rowId": `.rules`
                 }],
-                "title": "𝗜 𝗡 𝗙 𝗢"
+                "title": "⟣─────────❲ 𝗜 𝗡 𝗙 𝗢 ❳──────────⟢"
               }, {
                 "rows": [{
                   "title": `⋮☰|🏫|┅MENU———๑〘 ALL 〙`,
                   "description": "Menampilkan Menu All",
                   "rowId": '.? all'
                  }],
-                "title": " 𝗔 𝗟 𝗟"
+                "title": "⟣─────────❲ 𝗔 𝗟 𝗟 ❳──────────⟢"
                   }, {
                   "rows": [{
                   "title": "⋮☰|📝|┅MENU———๑〘 1 〙",
@@ -439,14 +439,14 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Photo Oxy Menu",
                   "rowId": `${_p}? textpro`
                 }],
-                "title": " 𝗟 𝗜 𝗦 𝗧"
+                "title": "⟣─────────❲ 𝗟 𝗜 𝗦 𝗧 ❳──────────⟢"
                 }, {
               	"rows": [{
                   "title": "⋮☰|🐻|┅MENU———๑〘 owner 〙",
                   "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
                   }],
-                "title": "𝗢 𝗡 𝗟 𝗬"
+                "title": "⟣─────────❲ 𝗢 𝗡 𝗟 𝗬 ❳──────────⟢"
               }  
             ], "contextInfo": {
               "stanzaId": m.key.id,
