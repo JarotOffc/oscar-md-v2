@@ -1,5 +1,5 @@
 let handler = async(m, { conn }) => {
-conn.send2Contact(m.chat, numberowner, nameowner, m)
+conn.send2Contact(m.chat, numberowner, nameowner, numbercretor, namecreatore m)
 }
 handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
