@@ -39,5 +39,5 @@ let krizyn = `
 
 handler.tags = ['main', 'info']
 handler.command = /^(tutorialsession)$/i
-handler.help = ['tutoriansesison']
+handler.help = ['tutorialsesison']
 module.exports = handler
