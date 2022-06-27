@@ -38,7 +38,7 @@ let krizyn = `
                {
              quickReplyButton: {
                displayText: 'Nomor creator bot',
-               id: '.owner',
+               id: '.owner2',
              }
              
            },
