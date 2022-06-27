@@ -38,8 +38,8 @@ urlButton: {
            },
                {
              quickReplyButton: {
-               displayText: 'MENU',
-               id: '.menu',
+               displayText: 'STORE',
+               id: '.store',
              }
              
            },
