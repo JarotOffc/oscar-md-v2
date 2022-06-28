@@ -25,7 +25,7 @@ const sentMsg  = await conn.sendMessage(
     }
 )
 await conn.send3But(m.chat, "*Hai kak👋,  Itu nomor owner gw…*", '📮: jngn di spam kack', 'Source code', '.sc', 'Back', '.menu', 'Donasi', '.donasi', sentMsg)}
-handler.help = ['owner', 'creator']
+handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
 
 handler.command = /^(owner2|creator2)$/i
