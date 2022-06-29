@@ -2,7 +2,8 @@ let fs = require('fs')
 let fetch = require('node-fetch')
 let handler = async (m, { conn, text }) => {
 let name = m.fromMe ? conn.user : conn.contacts[m.sender]
-await conn.send3But(m.chat, "*=====『 TAG TERDETEKSI 』=====*", '*📮: Ada yang bisa saya bantu?*', 'SEWA', '.sewa', 'STORE', '.store', 'KEMBALI', '.menu', m)
+let rozi = 'https://telegra.ph/file/816fe31b3d02ff785dddf.jpg'
+await conn.send3ButtonImg(m.chat, rozi, "*Ada Apa Tag owner Gua Ngab?🤨*", '=====『 TAG TERDETEKSI 』=====', 'OWNER', '.owner', 'KEMBALI', '.menu', 'STORE', '.store', m)
                         
 }
 handler.customPrefix = /@6285828764046/i
