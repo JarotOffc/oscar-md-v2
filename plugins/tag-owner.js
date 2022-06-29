@@ -5,7 +5,7 @@ let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 await conn.send3But(m.chat, "*=====『 TAG TERDETEKSI 』=====*", '*📮: Ada yang bisa saya bantu?*', 'SEWA', '.sewa', 'STORE', '.store', 'KEMBALI', '.menu', m)
                         
 }
-handler.customPrefix = /@6285828377610|@6285828764046|@6282122977451/i
+handler.customPrefix = /@6285828764046/i
 handler.command = new RegExp
 
 module.exports = handler
