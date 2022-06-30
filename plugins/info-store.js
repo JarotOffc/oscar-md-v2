@@ -37,8 +37,8 @@ let krizyn = `
            },
                {
              quickReplyButton: {
-               displayText: 'Nomor creator bot',
-               id: '.owner2',
+               displayText: 'Pilihan Store',
+               id: '.pilihanstore',
              }
              
            },
