@@ -5,7 +5,7 @@ let handler = async(m, { text }) => {
     m.reply(`╭──[ *TERDETEKSI AFK!* ]──✧
 ┆ *Nama* : ${conn.getName(m.sender)}
 ┆ *Alasan* : ${text ? '' + text : ''}
-╰┅────`)
+╰┅────❑`)
 }
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
