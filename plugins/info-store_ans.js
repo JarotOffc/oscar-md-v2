@@ -4,9 +4,9 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let krizyn = `
-*TUTORIAL BANH!!*
+*PILIHAN STORE*
 	`.trim()
-  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya8)).buffer()}, { upload: conn.waUploadToServer }) 
+  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya1)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
@@ -15,15 +15,15 @@ let krizyn = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'Sesssion coding📇',
-               url: ss
+               displayText: 'Store Jadibot',
+               url: 'https://wa.me/p/5157541794323439/6285828377610'
              }
 
            },
                 {
                urlButton: {
-               displayText: 'Session simpel🗒',
-               url: sss
+               displayText: 'Store Run Bot',
+               url: 'https://wa.me/p/5195315473908561/6285828377610'
              }
            }]
          }
@@ -38,6 +38,6 @@ let krizyn = `
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(tutorialsession)$/i
-handler.help = ['tutorialsesison']
+handler.command = /^(pilihanstore)$/i
+handler.help = ['pilihanstore']
 module.exports = handler
