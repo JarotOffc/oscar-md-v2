@@ -21,7 +21,6 @@ let anu = `Hallo mypren 👋
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
-⬡ [❗] *Kalau akunmu ke banned atau sebagainya bukan urusan saya*
 ┗━━━━━━━━━━ꕥ
 Jika anda berminat hubungi nomor di bawah!!
 
