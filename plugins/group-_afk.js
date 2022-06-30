@@ -5,7 +5,7 @@ handler.before = m => {
         m.reply(`╭──[ *BERHENTI AFK !* ]──✧
 ┆ *Alasan* : ${user.afkReason ? '' + user.afkReason : ''}
 ┆ *Time* : ${clockString(new Date - user.afk)}
-╰┅────★`.trim())
+╰┅────❑`.trim())
         user.afk = -1
         user.afkReason = ''
     }
@@ -19,7 +19,7 @@ handler.before = m => {
         m.reply(`╭──[ *JANGAN TAG DIA NGAB!* ]──✧
 ┆ ${reason ? '*Alasan* : ' + reason : 'Tanpa Alasan'}
 ┆ *Time* : ${clockString(new Date - afkTime)}
-╰┅────`.trim())
+╰┅────❑`.trim())
     }
     return true
 }
