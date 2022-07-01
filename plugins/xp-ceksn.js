@@ -1,7 +1,8 @@
 let handler = async function (m, { text, usedPrefix }) {
 const { createHash } = require('crypto')
 let sn = createHash('md5').update(m.sender).digest('hex')
-conn.sendBut(m.chat, sn, wm, 'MENU', '.menu', m)
+let rozi = 'https://telegra.ph/file/71a092b5d033e5aad9864.jpg'
+conn.sendButtonImg(m.chat, rozi, sn, wm, 'MENU', '.menu', m)
 }
 handler.help = ['ceksn']
 handler.tags = ['exp']
