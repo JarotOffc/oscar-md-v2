@@ -313,21 +313,21 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               {
       
              "rows": [{
-                  "title": ` 🧝⟩⟩» OWNER BOT`,
+                  "title": ` 🧝OWNER BOT`,
                   "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
-                  "title": '🪄⟩⟩» BUAT LOGO',
+                  "title": '🪄 BUAT LOGO',
                   "description": "Menampilkan Menu logo",
                   "rowId": `.textpro`
                  },{
-                 "title": '💌⟩⟩» SEWA BOT',
+                 "title": '💌 SEWA BOT',
                   "description": "sewa bot untuk grup.",
                   "rowId": `.sewazifa`
                  },{
-              	"title": `💬⟩⟩» RULES BOT`,
-                  "description": "Rules Yang Harus Di Patuhi User Shinn",
-                  "rowId": `.snk`
+              	"title": `🚀 KODE REFERAL`,
+                  "description": "dapatin kode ref mu agar kamu mendapatkan hadiah",
+                  "rowId": `.ref`
                 }],
                 "title": "⟣─────────❲ 𝗜 𝗡 𝗙 𝗢 ❳──────────⟢"
               }, {
