@@ -2,6 +2,7 @@ const { createHash } = require('crypto')
 let Reg = /(.*)([.|])([0-9]*)$/i
 let handler = async function (m, { text, usedPrefix }) {
   let user = global.db.data.users[m.sender]
+  let rozi = 'https://telegra.ph/file/b42e3f921952e611e5035.jpg'
   let uname = conn.getName(m.sender)
   if (user.registered === true) throw `Anda sudah terdaftar\nMau daftar ulang? ${usedPrefix}unreg <SN|SERIAL NUMBER>`
   if (!Reg.test(text)) throw `Format salah\n*${usedPrefix}daftar ${namalu}.umur*`
@@ -33,7 +34,7 @@ Gunakan Bot Secukupnya
 Dont Call/Vc Bot 
 `.trim())
 u = '╭─❒ 〔 HALLO NEW PREN 〕\n\n❍ Jika mau ke Pengaturan Bot Klik Tombol "Rules Bot"\n❍ Jika menuju menu Klik tombol "Tampilan Menu"\n❍ Jika mau cari owner Klik tombol "Owner"\n\nPatuhi Rules nya,demi kenyamanan kita bersama.'
-await conn.send3But(m.chat, u, wm, 'Rules', '#snk', 'Command', '#zifa', 'Owner', '#owner',  m)
+await conn.send3ButtonImg(m.chat, rozi, u, wm, 'Rules', '#snk', 'Command', '#zifa', 'Owner', '#owner',  m)
 }
 handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['exp']
