@@ -5,9 +5,9 @@
 // RECODE BY ZIFABOTZ
 
 //=============『 Utama 』================== //
-global.owner = ['6285828377610'] 
+global.owner = ['6285828764046'] 
 global.mods = ['6285828764046'] 
-global.prems = ['6285828377610'] 
+global.prems = ['6285828764046'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'ᴹᴿ᭄ ZifaOffcོ_1ঔৣ꧂'
