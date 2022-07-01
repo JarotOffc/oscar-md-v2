@@ -25,7 +25,7 @@ global.gopay = '085828764046'
 
 //=============『 Info Bot 』=================//
 global.namebot = '❋ཻུ۪۪⸙Zifabotz-MD⳹ ❋ཻུ۪۪'
-global.gc = 'https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv'
+global.gc = 'https://chat.whatsapp.com/Hd8yhc0sfSdGvPnpOjGHna'
 global.web = 'https://instagram.com/zalfapontianak' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.webm = 'https://instagram.com/zalfapontianak'
 global.saweria = 'https://saweria.co/zifabotz123'
