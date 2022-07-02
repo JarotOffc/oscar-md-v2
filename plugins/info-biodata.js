@@ -64,6 +64,7 @@ let krizyn = `
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(biodata)$/i
-handler.help = ['biodata']
+handler.customPrefix = /^(biodata|.biodata)$/i
+handler.command = new RegExp
+handler.help = ['.biodata']
 module.exports = handler
