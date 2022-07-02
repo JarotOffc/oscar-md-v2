@@ -72,6 +72,7 @@ wa.me/${numberowner} (Owner)
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(donasi|donate)$/i
-handler.help = ['donasi']
+handler.customPrefix = /^(donasi|donate|.donasi|.donate)$/i
+handler.command = new RegExp
+handler.help = ['.donasi']
 module.exports = handler
