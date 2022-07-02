@@ -60,6 +60,7 @@ let krizyn = `
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(gcbot)$/i
-handler.help = ['gcbot']
+handler.customPrefix = /^(gcbot|.gcbot)$/i
+handler.command = new RegExp
+handler.help = ['.gcbot']
 module.exports = handler
