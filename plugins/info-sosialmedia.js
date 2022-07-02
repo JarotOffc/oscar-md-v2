@@ -62,6 +62,7 @@ urlButton: {
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(sosialmedia)$/i
-handler.help = ['sosialmedia']
+handler.customPrefix = /^(sosialmedia|.sosialmedia)$/i
+handler.command = new RegExp
+handler.help = ['.sosialmedia']
 module.exports = handler
