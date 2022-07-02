@@ -38,6 +38,7 @@ let krizyn = `
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(pilihanstore)$/i
-handler.help = ['pilihanstore']
+handler.customPrefix = /^(pilihanstore|.pilihanstore)$/i
+handler.command = new RegExp
+handler.help = ['.pilihanstore']
 module.exports = handler
