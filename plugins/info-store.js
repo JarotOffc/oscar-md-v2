@@ -8,6 +8,7 @@ let krizyn = `
 «================»
 ››╭─〘 *Store* 〙
 ╭╡📮: Store owner kami.
+│┝‷✧ *jasa murid bot:*
 │┝‷✧ *jasa run bot:*
 │┝‷✧ *jasa jadi bot:*
 │╰───···─────
@@ -68,6 +69,7 @@ let krizyn = `
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(store)$/i
-handler.help = ['store']
+handler.customPrefix = /^(store|.store)$/i
+handler.command = new RegExp
+handler.help = ['.store']
 module.exports = handler
