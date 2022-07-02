@@ -63,7 +63,7 @@ Bot ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendow
 
 handler.tags = ['main', 'info']
 handler.customPrefix = /^(menu|help|.menu|.help)$/i
-handler.help = ['menu']
+handler.help = ['.menu']
 handler.command = new RegExp
 
 module.exports = handler
