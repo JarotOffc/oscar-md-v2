@@ -38,6 +38,7 @@ let krizyn = `
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(tutorialsession)$/i
-handler.help = ['tutorialsesison']
+handler.customPrefix = /^(tutorialsession|.tutorialsession)$/i
+handler.command = new RegExp
+handler.help = ['.tutorialsesison']
 module.exports = handler
