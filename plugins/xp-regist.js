@@ -34,7 +34,7 @@ Gunakan Bot Secukupnya
 Dont Call/Vc Bot 
 `.trim())
 u = '╭─❒ 〔 HALLO NEW PREN 〕\n\n❍ Jika mau ke Pengaturan Bot Klik Tombol "Rules Bot"\n❍ Jika menuju menu Klik tombol "Tampilan Menu"\n❍ Jika mau cari owner Klik tombol "Owner"\n\nPatuhi Rules nya,demi kenyamanan kita bersama.'
-await conn.send3ButtonImg(m.chat, rozi, u, wm, 'Rules', '#snk', 'Command', '#zifa', 'Owner', '#owner',  m)
+await conn.send3ButtonImg(m.chat, rozi, u, wm, 'Rules', '#snk', 'Tampilan Menu', '#zifa', 'Owner', '#owner',  m)
 }
 handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['exp']
