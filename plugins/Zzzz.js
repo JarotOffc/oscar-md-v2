@@ -83,5 +83,5 @@ let krizyn = `
 handler.tags = ['main', 'update']
 handler.customPrefix = /^(rules|rule|snk|.rules|.rule|.snk)$/i
 handler.command = new RegExp
-handler.help = ['rules']
+handler.help = ['.rules']
 module.exports = handler
