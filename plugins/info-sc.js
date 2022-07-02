@@ -60,6 +60,7 @@ let krizyn = `
 }
 
 handler.tags = ['main', 'info']
-handler.command = /^(sc|script|sourcecode)$/i
-handler.help = ['script']
+handler.customPrefix = /^(sc|script|sourcecode|.sc|.script|.sourcecode)$/i
+handler.command = new RegExp
+handler.help = ['.script']
 module.exports = handler
