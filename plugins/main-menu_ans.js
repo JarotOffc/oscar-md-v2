@@ -1,12 +1,10 @@
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let fs = require('fs')
+let owner = 6285828764046
+let wa = '0'
 let handler = async (m) => {
 let krizyn = `
-*Hallo user Bot👋,* 
-
-*Saya adalah Bot WhatsApp Multi Device yang di buat oleh Creator kami.*
-Bot ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendownload sesuatu seperti:
-*Vidio tiktok , Vidio yt , membuat stiker DLL.*
+*Hai kak @${m.sender.split('@')[0]} 👋*
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya5)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
@@ -14,7 +12,7 @@ Bot ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendow
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '[❗] Silahkan pilih Command Dibawah ini',
+           hydratedFooterText: 'Note : Jika Kamu Menggunakan Wa Lama Atau Wa Mod, Dan Button Tidak Keliatan, Langsung Aja Ketik .? all',
            hydratedButtons: [{
              urlButton: {
                displayText: '🔮GroupBot🔮',
@@ -31,21 +29,21 @@ Bot ini bisa membantu kamu atau mempermudah kamu membuat sesuatu atau pun mendow
            },
                {
              quickReplyButton: {
-               displayText: 'PATUHI RULES BOT',
+               displayText: 'RULES',
                id: '.snk',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'SOURCE CODE',
+               displayText: 'SCRIPT',
                id: '.sc',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: 'COMMAND',
+               displayText: 'LIST COMMAND',
                id: '.zifa',
              }
 
