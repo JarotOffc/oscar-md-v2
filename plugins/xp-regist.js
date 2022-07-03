@@ -2,7 +2,7 @@ const { createHash } = require('crypto')
 let Reg = /(.*)([.|])([0-9]*)$/i
 let handler = async function (m, { text, usedPrefix }) {
   let user = global.db.data.users[m.sender]
-  let rozi = 'https://telegra.ph/file/b42e3f921952e611e5035.jpg'
+  let rozi = 'https://telegra.ph/file/3dfd70ee3cdabf3a922a7.jpg'
   let uname = conn.getName(m.sender)
   if (user.registered === true) throw `Anda sudah terdaftar\nMau daftar ulang? ${usedPrefix}unreg <SN|SERIAL NUMBER>`
   if (!Reg.test(text)) throw `Format salah\n*${usedPrefix}daftar ${namalu}.umur*`
