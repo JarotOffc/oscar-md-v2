@@ -12,7 +12,7 @@ let krizyn = `
             hydratedTemplate: {
                 hydratedContentText: krizyn,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'Note : Jika Kamu Menggunakan Wa Lama Atau Wa Mod, Dan Button Tidak Keliatan, Langsung Aja Ketik .? all',
+           hydratedFooterText: '📮Note : Jika Kamu Menggunakan Wa Lama Atau Wa Mod, Dan Button Tidak Keliatan, Langsung Aja Ketik .? all',
            hydratedButtons: [{
              urlButton: {
                displayText: '🔮GroupBot🔮',
