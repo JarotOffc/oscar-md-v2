@@ -35,7 +35,7 @@ wa.me/${numberowner} (Owner)
                 {
                urlButton: {
                displayText: '😼Whatsapp creator😼',
-               url: '085850539404
+               url: 'wa.me//79609055704
              }
 
            },
