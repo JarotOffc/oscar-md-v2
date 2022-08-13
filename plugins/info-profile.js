@@ -70,7 +70,7 @@ Kadaluarsa Premium: ${(premiumDate - now) > 1 ? msToDate(premiumDate - now) : '*
 handler.help = ['profile [@user]']
 handler.tags = ['info']
 handler.command = /^profile$/i
-handler.limit = false
+handler.limit = true
 handler.register = false
 
 module.exports = handler
