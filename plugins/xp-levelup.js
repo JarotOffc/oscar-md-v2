@@ -13,7 +13,7 @@ Kurang *${max - user.exp}* lagi!
 	while (levelling.canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 	if (before !== user.level) {
             m.reply(`
-Selamat, anda telah naik level!
+Selamat, anda telah naik level! Jangan sia sia kan level anda!!
 *${before}* -> *${user.level}*
 gunakan *.my* untuk mengecek
 	`.trim())
