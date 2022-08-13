@@ -2,6 +2,7 @@
 * SCRIPT BOT ORI by hyzer official
 * CREATOR BY KRIZYN OFFICIAL
 * CREATOR2 BY Zifabotz_offc1
+* CREATOR3 BY OSCAR OFFICIAL 
 * MAU BANYAK LAGI FITUR NYA 
 * RECODE SENDIRI BANH JANGAN MAU ENAK AJA
 * NOTE MASIH ADA BUG STIKER DAN LAIN 
@@ -42,7 +43,7 @@ const defaultMenu = {
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
   body: '┃❑ %cmd %islimit %isPremium',
   footer: '┃\n╰────────❑\n', 
-  footerText: 'Powered by Rozi',
+  footerText: 'Powered by Jarot',
   after: `
 ╭──〔  THANKS TO  〕─⬣
 ⫹⫺ Allah SWT
@@ -56,6 +57,7 @@ const defaultMenu = {
 ⫹⫺ KrizynOfc
 ⫹⫺ RielgansOfc
 ⫹⫺ Zifabotz_offc1
+⫹⫺ OscarOfc
 ╰─────────────⬣
 `,
 }
@@ -303,7 +305,7 @@ let menuu = `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `©️ *Zifabotz-MD*`.trim(),
+                        "description": `©️ *Oscarbotz-MD*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "Click Here",
             listType: 1,
@@ -524,15 +526,15 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '🔮INSTAGRAM🔮',
-               url: webm
+               displayText: '🔮YOUTUBE🔮',
+               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
              }
 
            },
              {
              urlButton: {
                displayText: '🎮GROUP BOT🎮', 
-               url: gc
+               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
              }
 
            },
@@ -546,7 +548,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                {
              quickReplyButton: {
         displayText: '💳 Sewa',
-               id: '.sewazifa',
+               id: '.sewaoscar',
              }
 
            },
@@ -570,9 +572,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
     throw e
   }
 }
-handler.help = ['zifa']
+handler.help = ['oscar']
 handler.tags = ['main']
-handler.command = /^(alive|panel|krizyn|list|zifa|\?)$/i
+handler.command = /^(KRIZ|Jarotlist|zifa|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
