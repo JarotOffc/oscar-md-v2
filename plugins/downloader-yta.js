@@ -1,6 +1,6 @@
 let axios = require('axios')
 const fetch = require('node-fetch')
-let limit = 1024354
+let limit = 10
 const { servers, yta } = require('../lib/y2mate')
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
   if (!args || !args[0]) throw 'Uhm... urlnya mana?'
@@ -26,7 +26,7 @@ handler.command = /^yt(a|mp3)$/i
 
 handler.fail = null
 handler.exp = 0
-handler.limit = false
+handler.limit = true
 
 module.exports = handler
 
