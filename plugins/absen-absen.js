@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     let absen = conn.absen[id][1]
     const wasVote = absen.includes(m.sender)
-    if (wasVote) throw 'Kamu sudah absen!'
+    if (wasVote) throw 'Kamu sudah absen cok!'
     absen.push(m.sender)
     let d = new Date
     let date = d.toLocaleDateString('id', {
