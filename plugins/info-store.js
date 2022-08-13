@@ -9,8 +9,8 @@ let krizyn = `
 ››╭─〘 *Store* 〙
 ╭╡📮: Store owner kami.
 │┝‷✧ *jasa murid bot:*
-│┝‷✧ *jasa run bot:*
-│┝‷✧ *jasa jadi bot:*
+│┝‷✧ *jasa Jadi bot:*
+│┝‷✧ *jasa Sewa bot:*
 │╰───···─────
 │⁺◛˖ Ingin membeli store owner? Chat owner aja…
 ╰──────────···───
@@ -25,14 +25,14 @@ let krizyn = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'YouTube creator🌱',
-               url: yt
+               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
              }
 
            },
                 {
                urlButton: {
-               displayText: '🌍 Instagram 🌍',
-               url: webm
+               displayText: 'GROUP BOT🌍',
+               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
              }
 
            },
