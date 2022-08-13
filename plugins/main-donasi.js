@@ -27,22 +27,22 @@ wa.me/${numberowner} (Owner)
            hydratedFooterText: '📮 Silahkan pilih Command Dibawah ini',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'Saweria🐈',
-               url: saweria
+               displayText: 'Dana🐈',
+               url: '085850539404
              }
 
            },
                 {
                urlButton: {
                displayText: '😼Whatsapp creator😼',
-               url: nomer
+               url: '085850539404
              }
 
            },
                {
              quickReplyButton: {
                displayText: 'sewa',
-               id: '.sewazifa',
+               id: '.sewaoscar',
              }
              
            },
