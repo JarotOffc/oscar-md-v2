@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, args }) => {
    response = args.join(' ').split('|')
-  if (!args[0]) throw 'Masukkan Text\nContoh : .flaming2 ROZI'
+  if (!args[0]) throw 'Masukkan Text\nContoh : .flaming2 OSCAR'
   m.reply('_Sedang diproses..._')
   let res = `https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text=${response[0]}`
   conn.sendFile(m.chat, res, 'gura.jpg', `*SELESAI. . .*`, m, false)
