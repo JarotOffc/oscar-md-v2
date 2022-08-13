@@ -7,7 +7,7 @@ const fetch = require('node-fetch')
 
 let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
 	if (!text) throw `_Masukan nomor!_\nContoh:\n\n${usedPrefix + command} ${global.owner[0]}`
-	m.reply('_Sedang di proses..._')
+	m.reply('_Wait Sedang di proses..._')
     let _participants = participants.map(user => user.id)
     let users = (await Promise.all(
         text.split(',')
