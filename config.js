@@ -11,7 +11,7 @@ global.prems = ['6285850539404']
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'ᴹᴿ᭄ Oscar offcঔৣ꧂'
-global.numberowner = '6285850539404,79609055704'
+global.numberowner = '6285850539404','79609055704',
 global.instagram = 'https://instagram.com/oscarbotz_'
 global.github = 'https://github.com/Alpiii22'
 global.Youtube = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
