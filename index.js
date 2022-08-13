@@ -9,11 +9,11 @@ const yargs = require('yargs/yargs')
 const rl = Readline.createInterface(process.stdin, process.stdout)
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 
-CFonts.say('Zifabotz-MD\n by.Rozi', {
+CFonts.say('Oscarbotz-MD\n by.Jarot', {
   colors: ['blueBright','yellowBright'],                                        font: 'block',
   align: 'center',
 })
-CFonts.say(`SUBSCRIBE CHANNEL ZIFABOTZ_OFFC1`, {                                            
+CFonts.say(`SUBSCRIBE CHANNEL Rismabotz_OFFC`, {                                            
 colors: ['yellow'],                                                           
 font: 'console',                                                              align: 'center',
 })
