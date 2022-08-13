@@ -6,5 +6,5 @@ let handler = async (m, { conn }) => {
     m.reply('```' + json.name.replace(/[bcdfghjklmnpqrstvwxyz]/g, '_') + '```\nBalas soalnya Bukan Pesan ini_-')
 }
 handler.command = /^tebe$/i
-handler.limit = false 
+handler.limit = true
 module.exports = handler
