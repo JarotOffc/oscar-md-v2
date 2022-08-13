@@ -1,6 +1,6 @@
 # INFORMASI
 
-<img align="center" fit="fill" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" />
+<img align="center" fit="fill" alt="Img" src="https://telegra.ph/file/f75d11c23134f474de724.jpg" />
 
 <div align="center">
 
