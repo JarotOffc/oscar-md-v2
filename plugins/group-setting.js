@@ -9,7 +9,7 @@ let handler = async (m, { isAdmin, isOwner, isBotAdmin, conn, args, usedPrefix, 
 		throw false
 	}
 let prefix = usedPrefix
-let bu = `Group telah di buka oleh @${m.sender.split`@`[0]} dan sekarang  semua member dapat mengirim pesan
+let bu = `Group telah di buka oleh @${m.sender.split`@`[0]} dan sekarang  semua member dapat mengirim pesan!!
 
 ketik *${usedPrefix}group buka*
 Untuk membuka grup!`.trim()            
