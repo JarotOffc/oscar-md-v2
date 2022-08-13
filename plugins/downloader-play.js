@@ -8,7 +8,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   await m.reply(global.wait)
   let results = await yts(text)
   let vid = results.all.find(video => video.seconds < 3600)
-  if (!vid) throw 'Konten Tidak ditemukan'
+  if (!vid) throw 'Konten Tidak ditemukan!'
   let isVideo = /2$/.test(command)
   let yt = false
   let yt2 = false
@@ -38,7 +38,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     itemCount : 20290,
     status: 1,
     surface : 1,
-    message: `❏ zifabotz`, 
+    message: `❏ oscarbotz`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/ad0f27b9d5e469827e654.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -46,7 +46,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     }
     }
   await conn.send3ButtonImg(m.chat, await (await fetch(thumb)).buffer(), `
-*PLAY ZIFABOTZ*
+*PLAY OSCARBOTZ*
 ├●───────────────┤
 ◁ㅤ ❚❚ㅤ▷
 ┏┉━━━━━━━━━━━❏
