@@ -5,7 +5,7 @@ let handler = async (m) => {
     else who = m.sender
     let user = global.db.data.users[who]
     let toos = fs.readFileSync('./media/bank.jpg')
-    let anu =`╭───❑ 「 BALANCE 」 ❑────
+    let anu =`╭───❑ 「 𝐁𝐀𝐋𝐀𝐍𝐂𝐄 」 ❑────
 ├─ 📇 *Name*: ${user.name}
 ├─ 🆔 *Nomor* : ${require('awesome-phonenumber')(`+${m.sender.split('@')[0]}`).getNumber('international')}
 ├─ 🎨 *Age* : ${user.registered ? '' + user.age : ''}
