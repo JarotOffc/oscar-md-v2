@@ -17,7 +17,7 @@ let anu = `Hallo mypren 👋
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
 ⬡ *GOPAY:* ${gopay}
-⬡ *OVO:* ${pulsa}
+⬡ *PULSA:* ${pulsa}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
