@@ -17,22 +17,22 @@ let krizyn = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'Tiktok creator📨',
-               url: tt
+               displayText: 'Youtube creator📨',
+               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
              }
 
            },
                 {
                urlButton: {
-               displayText: 'Youtube creator🔥',
-               url: yt
+               displayText: 'Instagram creator🔥',
+               url: 'https://instagram.com/oscarbotz_'
              }
 
            },
                {
 urlButton: {
-               displayText: 'Instagram Creator📸',
-               url: webm
+               displayText: 'Group Bot Creator📸',
+               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
              }
 
            },
