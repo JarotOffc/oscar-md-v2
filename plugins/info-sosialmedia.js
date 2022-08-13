@@ -12,7 +12,7 @@ let krizyn = `
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
-                hydratedContentText: krizyn,
+                hydratedContentText: jarot,
                 imageMessage: message.imageMessage, 
            hydratedFooterText: '',
            hydratedButtons: [{
