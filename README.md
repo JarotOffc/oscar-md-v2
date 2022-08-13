@@ -1,6 +1,6 @@
 # INFORMASI
 
-<img align="center" fit="fill" alt="Img" src="https://telegra.ph/file/f75d11c23134f474de724.jpg" width="700" height="700"/>
+<img align="center" fit="fill" alt="Img" src="https://telegra.ph/file/a41db7fdddf10012d2000.jpg" width="700" height="700"/>
 
 <div align="center">
 
