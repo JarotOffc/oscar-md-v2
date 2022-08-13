@@ -21,10 +21,10 @@
 ##TqTo
 ```bash
   
-Pemilik base
-pemilik SC ORI
-layanan api 
-pemilik readme
+✓ Pemilik base
+✓ pemilik SC ORI
+✓ layanan api 
+✓ pemilik readme
 ✓ Hyzer
 ✓ Krizyn
 ✓ Jarot
