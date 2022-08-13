@@ -3,7 +3,7 @@
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let handler = async (m) => {
-let krizyn = `
+let jarot = `
 *STORE CREATOR*
 «================»
 ››╭─〘 *Store* 〙
@@ -19,20 +19,20 @@ let krizyn = `
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
-                hydratedContentText: krizyn,
+                hydratedContentText: jarot,
                 imageMessage: message.imageMessage, 
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
                displayText: 'YouTube creator🌱',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               url: Youtube
              }
 
            },
                 {
                urlButton: {
                displayText: 'GROUP BOT🌍',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               url: gc
              }
 
            },
