@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     if (!/image\/(jpe?g|png)/.test(mime)) throw `Mime ${mime} tidak didukung`
     if (/image/.test(mime)) {
         let img = await q.download()
-        if (!img) throw 'Gambar tidak ditemukan'
+        if (!img) throw 'Gambar tidak ditemukan!'
         await conn.updateProfilePicture(m.chat, img)
     } else throw `kirim/balas gambar dengan perintah *${usedPrefix + command}*`
 }
