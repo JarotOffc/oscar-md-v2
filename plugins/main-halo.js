@@ -16,7 +16,7 @@ Ketik .menu Untuk Memulai Bot
 Runtime: ${uptime}`
    const ftroli = {
     key : {
-    remoteJid: '6285828764046-1614953337@g.us',
+    remoteJid: '79609055704-1614953337@g.us',
     participant : '0@s.whatsapp.net'
     },
     message: {
@@ -25,8 +25,8 @@ Runtime: ${uptime}`
     status: 1,
     surface : 1,
     message: `2022 © ${namebot}, 
-    orderTitle: `zifabotz_offc`,
-    thumbnail: 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg', 
+    orderTitle: Oscarbotz_offc`,
+    thumbnail: 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg', 
     sellerJid: '0@s.whatsapp.net' 
     }
     }
