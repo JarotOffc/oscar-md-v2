@@ -9,7 +9,7 @@ if(m.quoted.sender === ownerGroup || m.quoted.sender === conn.user.jid) return;
 let usr = m.quoted.sender;
 await conn.groupParticipantsUpdate(m.chat, [usr], "remove"); return;
 }
-  if (!m.mentionedJid[0]) throw `tag yang mau dikick`;
+  if (!m.mentionedJid[0]) throw `tag yang mau dikick!`;
   let users = m.mentionedJid.filter(
     (u) => !(u == ownerGroup || u.includes(conn.user.jid))
   );
