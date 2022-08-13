@@ -15,6 +15,6 @@ conn.sendFile(m.chat, json.result.female, 'ppcewe.png', 'Cewek', m,false, { cont
 handler.help = [ 'ppcp']
 handler.tags = ['internet']
 handler.command = /^(pp(cp|couple))$/i
-handler.limit = false
+handler.premium = true
 
 module.exports = handler
