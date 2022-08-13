@@ -777,7 +777,7 @@ ketik *.off delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let name = conn.getName(m.sender)
-let rozi = 'https://telegra.ph/file/5ab7e36e1fe4f2cf92b74.jpg'
+let jarot = 'https://telegra.ph/file/5ab7e36e1fe4f2cf92b74.jpg'
   let msg = {
     rowner: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
 ⬡ Perintah ini hanya untuk developer bot
@@ -805,7 +805,7 @@ let rozi = 'https://telegra.ph/file/5ab7e36e1fe4f2cf92b74.jpg'
 ╰─────────────────֍`,
     restrict: 'Fitur ini di *disable*!',
     }[type]
-  if (msg) return conn.sendButtonImg(m.chat, rozi, msg, '❑ Silahkan klik menu dibawah ini', 'Menu', '.menu', m)
+  if (msg) return conn.sendButtonImg(m.chat, jarot, msg, '❑ Silahkan klik menu dibawah ini', 'Menu', '.menu', m)
  let unreg = {
   unreg: `
 ┏━━━〔 ıll 𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━❑
