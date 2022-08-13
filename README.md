@@ -19,8 +19,8 @@
 [![Session.data.json](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@HEROKUAKUN/Qr-2#README.md)
 
 ##TqTo
-```bash
-  
+
+ ```bash 
 ✓ Pemilik base
 ✓ pemilik SC ORI
 ✓ layanan api 
