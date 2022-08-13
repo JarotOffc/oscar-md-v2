@@ -16,7 +16,7 @@ handler.before = m => {
         let afkTime = user.afk
         if (!afkTime || afkTime < 0) continue
         let reason = user.afkReason || ''
-        m.reply(`╭──[ *JANGAN TAG DIA NGAB!* ]──✧
+        m.reply(`╭──[ *JANGAN TAG DIA COK!* ]──✧
 ┆ ${reason ? '*Alasan* : ' + reason : 'Tanpa Alasan'}
 ┆ *Time* : ${clockString(new Date - afkTime)}
 ╰┅────❑`.trim())
