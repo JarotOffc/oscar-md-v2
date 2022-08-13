@@ -18,21 +18,21 @@ let jarot = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'Youtube creator📨',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               url: yt
              }
 
            },
                 {
                urlButton: {
                displayText: 'Instagram creator🔥',
-               url: 'https://instagram.com/oscarbotz_'
+               url: web
              }
 
            },
                {
 urlButton: {
                displayText: 'Group Bot Creator📸',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               url: gc
              }
 
            },
