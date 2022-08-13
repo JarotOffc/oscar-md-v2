@@ -19,6 +19,8 @@ BIG THANKS TO
     📮 https://github.com/krizynofc
 ⤿ Zifabotz_offc1
     📮 https://github.com/Botynyakamu
+⤿ Jarot ofc 
+    📮 https://github.com/alpiii22 
     
 THANKS PARA DONASI YANG TERHORMAT
 `
