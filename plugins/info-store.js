@@ -8,8 +8,8 @@ let jarot = `
 «================»
 ››╭─〘 *Store* 〙
 ╭╡📮: Store owner kami.
-│┝‷✧ *jasa murid bot:*
-│┝‷✧ *jasa Jadi bot:*
+│┝‷✧ *jasa Tunggu Rame:*
+│┝‷✧ *jasa Tunggu Rame:*
 │┝‷✧ *jasa Sewa bot:*
 │╰───···─────
 │⁺◛˖ Ingin membeli store owner? Chat owner aja…
@@ -24,14 +24,14 @@ let jarot = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'YouTube creator🌱',
+               displayText: 'Group Bot📊',
                url: Youtube
              }
 
            },
                 {
                urlButton: {
-               displayText: 'GROUP BOT🌍',
+               displayText: 'Gatau ini apaan',
                url: gc
              }
 
