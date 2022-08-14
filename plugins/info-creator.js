@@ -3,7 +3,7 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: Takinaa
+FN: ZerooTwoo
 item.ORG: Zeroo
 item1.TEL;waid=6283830815715:6283830815715@s.whatsapp.net
 item1.X-ABLabel:owner selalu ada 
