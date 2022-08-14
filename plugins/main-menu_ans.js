@@ -15,15 +15,15 @@ let jarot = `
            hydratedFooterText: '📮Note : Jika Kamu Menggunakan Wa Lama Atau Wa Mod, Dan Button Tidak Keliatan, Langsung Aja Ketik .? all',
            hydratedButtons: [{
              urlButton: {
-               displayText: '🔮GroupBot🔮',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               displayText: '📊GroupBot📊',
+               url: 'https://chat.whatsapp.com/HfU2b0eC1Am4GZaIbg4gb4'
              }
 
            },
                 {
                urlButton: {
-               displayText: '🐻Youtube creator🐻',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               displayText: '🗿Website🗿',
+               url: 'https://tasyaachann01.github.io/'
              }
 
            },
@@ -36,8 +36,8 @@ let jarot = `
            },
                {
              quickReplyButton: {
-               displayText: 'SCRIPT',
-               id: '.sc',
+               displayText: 'Donasi',
+               id: '.https://telegra.ph/file/211793132c832a5dea1e3.jpg',
              }
              
              },
