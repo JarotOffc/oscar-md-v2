@@ -57,7 +57,7 @@ global.eror = '_*🚨 Server Bot Sedang Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '⏳ Stiker sedang Proses'
-global.packname = 'Takinaa Botz'
+global.packname = 'ZerooTwoo'
 global.author = '@Tasyaa'
 
 //=============『 Apikey 』================== //
