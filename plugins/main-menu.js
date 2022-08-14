@@ -43,7 +43,7 @@ const defaultMenu = {
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
   body: '┃❑ %cmd %islimit %isPremium',
   footer: '┃\n╰────────❑\n', 
-  footerText: 'Powered by Jarot',
+  footerText: 'Powered by Tasyaa!!',
   after: `
 ╭──〔  THANKS TO  〕─⬣
 ⫹⫺ Allah SWT
@@ -305,7 +305,7 @@ let menuu = `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `©️ *Oscarbotz-MD*`.trim(),
+                        "description": `©️ *Takinaa-MD*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "Click Here",
             listType: 1,
@@ -526,15 +526,15 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '🔮YOUTUBE🔮',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               displayText: '🔮WEBSITE🔮',
+               url: 'https://tasyaachann01.github.io/'
              }
 
            },
              {
              urlButton: {
                displayText: '🎮GROUP BOT🎮', 
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               url: 'https://chat.whatsapp.com/HfU2b0eC1Am4GZaIbg4gb4'
              }
 
            },
