@@ -1,4 +1,4 @@
-# INFORMASI
+# JIKA ADA YANG EROR/MENEMUKAN BUG SILAHKAN CHAT OWNER
 
 <img align="center" fit="fill" alt="Img" src="https://telegra.ph/file/a41db7fdddf10012d2000.jpg" width="500" height="500"/>
 <div align="center">
