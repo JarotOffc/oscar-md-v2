@@ -777,7 +777,7 @@ ketik *.off delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let name = conn.getName(m.sender)
-let jarot = 'https://telegra.ph/file/5ab7e36e1fe4f2cf92b74.jpg'
+let jarot = 'https://telegra.ph/file/a871f2ca2c623c57b82dd.jpg'
   let msg = {
     rowner: `╭─֍〔 ıll 𝐀𝐂𝐂𝐄𝐒𝐒 𝐃𝐄𝐍𝐈𝐄𝐃 llı 〕֍─
 ⬡ Perintah ini hanya untuk developer bot
