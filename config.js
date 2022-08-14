@@ -33,15 +33,15 @@ global.nomer = 'https://wa.me/6283830815715' //ganti jadi nomor mu
 global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 5.000\nMAKSIMAL 2 GRUP\n》PERMANEN 8.000\nMAKSIMAL 4 GRUP'
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ini juga ganti
-global.fotonya3 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ini juga ganti
-global.fotonya4 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ini juga ganti
-global.fotonya5 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ini juga ganti
-global.fotonya6 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ini ganti pakai foto sosialmedia mu
-global.fotonya7 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg'
-global.fotonya8 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //foto session
-global.donasi = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ganti pakai poto payment atau apa
+global.fotonya1 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
+global.fotonya3 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
+global.fotonya4 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
+global.fotonya5 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
+global.fotonya6 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini ganti pakai foto sosialmedia mu
+global.fotonya7 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg'
+global.fotonya8 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //foto session
+global.donasi = 'https://telegra.ph/file/211793132c832a5dea1e3.jpg' //ganti pakai poto payment atau apa
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = 'TakinaaChann'
