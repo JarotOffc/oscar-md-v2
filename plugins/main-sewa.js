@@ -9,10 +9,7 @@ let anu = `Hallo mypren 👋
 ━━━〔 ıll *Sewa Bot* llı 〕━━ꕥ
 ━━━━━━━━━━━━━━━━━━━━
 ━━━〔 ıll *HARGA* llı 〕━━ꕥ
-⬡ *1 BULAN:* *15.000*
-⬡ *2 BULAN:* *25.000*
-⬡ *1 BULAN 2/3 GRUP:* *20.000*
-⬡ *lebih dari 3 tambah +5.000*
+⬡ 10K Permanen
 ┗━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
@@ -30,10 +27,10 @@ Terimakasih yang sudah mendonasikan untuk bot
 Contact person Sewa Bot:
 wa.me/${numberowner} (Owner)
 
-*Follow Instagram ku juga kak😼*`
+*Website Bot*`
   conn.send3ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
 }
-handler.help = ['sewaoscar']
+handler.help = ['SewaaTakinaa']
 handler.tags = ['info']
 handler.command = /^(sewa|sewaoscar|sewa|sewabot)$/i
 
