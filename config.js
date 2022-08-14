@@ -10,7 +10,7 @@ global.mods = ['']
 global.prems = ['6283830815715'] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Takinaa X Zeroo'
+global.nameowner = 'ZerooTwoo'
 global.numberowner = '6283830815715','6283890585717',
 global.instagram = 'https://tasyaachann01.github.io/'
 global.github = 'https://chat.whatsapp.com/HfU2b0eC1Am4GZaIbg4gb4'
@@ -24,7 +24,7 @@ global.pulsa = '083830815715'
 global.gopay = '08'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'TakinaaBot'
+global.namebot = 'ZerooTwoo-MD'
 global.gc = 'https://chat.whatsapp.com/HfU2b0eC1Am4GZaIbg4gb4'
 global.web = 'https://tasyaachann01.github.io/' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.webm = 'https://tasyaachann01.github.io/'
@@ -33,14 +33,14 @@ global.nomer = 'https://wa.me/6283830815715' //ganti jadi nomor mu
 global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 5.000\nMAKSIMAL 2 GRUP\n》PERMANEN 8.000\nMAKSIMAL 4 GRUP'
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
-global.fotonya3 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
-global.fotonya4 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
-global.fotonya5 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini juga ganti
-global.fotonya6 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //ini ganti pakai foto sosialmedia mu
-global.fotonya7 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg'
-global.fotonya8 = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg' //foto session
+global.fotonya1 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg' //ini juga ganti
+global.fotonya3 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg' //ini juga ganti
+global.fotonya4 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg' //ini juga ganti
+global.fotonya5 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg' //ini juga ganti
+global.fotonya6 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg' //ini ganti pakai foto sosialmedia mu
+global.fotonya7 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg'
+global.fotonya8 = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg' //foto session
 global.donasi = 'https://telegra.ph/file/211793132c832a5dea1e3.jpg' //ganti pakai poto payment atau apa
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
