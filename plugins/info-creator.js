@@ -4,7 +4,7 @@ const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
 FN: Takinaa
-item.ORG: TakinaaOwner
+item.ORG: Zeroo
 item1.TEL;waid=6283830815715:6283830815715@s.whatsapp.net
 item1.X-ABLabel:owner selalu ada 
 item2.YOUTUBE;type=INTERNET: https://chat.whatsapp.com/HfU2b0eC1Am4GZaIbg4gb4
@@ -24,7 +24,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let jarot = 'https://telegra.ph/file/506c7dbd636aed0e549d9.jpg'
+let jarot = 'https://telegra.ph/file/bc5258e2d4359cc8996d1.jpg'
 await conn.send3ButtonImg(m.chat, jarot, `*Hai kak @${m.sender.split('@')[0]} 👋,  Itu nomor owner gw…*`, '📮: jngn di spam kack', 'Store', '.store', 'Back', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
