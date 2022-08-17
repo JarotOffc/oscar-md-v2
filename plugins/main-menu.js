@@ -574,7 +574,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 }
 handler.help = ['oscar']
 handler.tags = ['main']
-handler.command = /^(KRIZ|Jarotlist|zifa|\?)$/i
+handler.command = /^(menu|helplist|zifa|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
