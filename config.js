@@ -5,13 +5,13 @@
 // RECODE BY OSCAR OFC
 
 //=============『 Utama 』================== //
-global.owner = ['6285850539404','79609055704'] 
-global.mods = [''] 
+global.owner = ['6285850539404'] 
+global.mods = ['6285850539404'] 
 global.prems = ['6285850539404'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'ᴹᴿ᭄ Jarot offcঔৣ꧂'
-global.numberowner = '6285850539404','79609055704',
+global.numberowner = '6285850539404',
 global.instagram = 'https://instagram.com/Jarotr_'
 global.github = 'https://github.com/Alpiii22'
 global.Youtube = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
@@ -44,7 +44,7 @@ global.fotonya8 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //foto ses
 global.donasi = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg' //ganti pakai poto payment atau apa
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '❋ཻུ۪۪⸙Dark-MD⳹ ❋ཻུ۪۪'
+global.wm = '❋ཻུ۪۪⸙OSCAR-MD⳹ ❋ཻུ۪۪'
 global.watermark = wm
 global.wm2 = 'ᯤ creator by Oᵂηʀ᭄๖ۣۣۜ𝐉𝐚𝐫𝐨𝐭_𝙊𝙛𝙛cོ1꧅'
 global.wm3 = 'ᯤ 𝐉𝐚𝐫𝐨𝐭 𝙾𝙵𝙲'
